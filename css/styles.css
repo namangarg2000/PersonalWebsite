@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: 500%;
+}
+
+p{
+    font-size: 150%;
+}
+
+.one{
+    background-color: #f6f5f5;
+    color: #1687a7;
+    text-align: center;
+    
+}
