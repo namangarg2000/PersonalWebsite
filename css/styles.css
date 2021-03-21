@@ -1,19 +1,20 @@
 body{
     margin: 0;
+    background-color: #fff3e6;
 }
 
 h1{
     margin: 0;
-    font-size: 500%;
+    font-size: 300%;
 }
 
 p{
     font-size: 150%;
+    font-family: 'Indie Flower', cursive;
 }
 
 .one{
-    background-color: #f6f5f5;
-    color: #1687a7;
+    color: #0d335d;
     text-align: center;
     
 }
