@@ -1,58 +1,49 @@
 body{
     margin: 0;
-    background-color: #f8f5f1;
-    color: #343f56;
+}
+.navbar{
+height: 80px;
+background-color: #393e46;
 }
 
-.title_sub:before {
-    right: 0.5em;
-    margin-left: -50%;
-  }
-  
-  .title_sub:after {
-    left: 0.5em;
-    margin-right: -50%;
-  }
-  .title_sub:before,.title_sub:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
- /* 
-h1{
+.top-title{
     margin: 0;
-    font-size: 300%;
+}
+
+.top{
+    background-color: #eeeeee;
+    color: #222831;
+    margin: 0;
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.dev{
+    text-decoration: underline;
+}
+
+.top-cloud{
+position: absolute;
+right: 550px;
+top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+}
+
+/*
+.middle{
+background-color: #00adb5;
+height: 200px;
+width: 200px;
+}
+
+.bottom{
+    background-color: #eeeeee;
+    height: 200px;
+    width: 200px;
 }*/
-
-.title_sub{
-    font-size: 150%;
-    font-style: italic;
-    font-family: 'Indie Flower', cursive;
-}
-
-.title{
-    color: #e84545;
-    text-align: center;
-}
-
-.education{
-    /*margin-left: 0.67%;*/
-    background-color: #387c6d;
-}
-
-.education_table{
-    color: #f8f5f1;
-    text-align: center;
-    column-gap: 100px;
-}
-
-.skills_list{
-    column-count: 2;
-}
-.courses_list{
-    column-count: 2;
-}
